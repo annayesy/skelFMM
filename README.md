@@ -1,5 +1,11 @@
 # skelFMM: A Simplified Kernel-Independent Fast Multipole Method (FMM)
 
+[![DOI](https://zenodo.org/badge/905164703.svg)](https://doi.org/10.5281/zenodo.14613532)
+[![License](https://img.shields.io/github/license/annayesy/skelFMM)](./LICENSE)
+[![Top language](https://img.shields.io/github/languages/top/annayesy/skelFMM)](https://www.python.org)
+![Code size](https://img.shields.io/github/languages/code-size/annayesy/skelFMM)
+[![Latest commit](https://img.shields.io/github/last-commit/annayesy/skelFMM)](https://github.com/annayesy/skelFMM/commits/main)
+
 ## Overview
 
 `skelFMM` is a research implementation of a novel kernel-independent fast multipole method (FMM) designed for efficiently evaluating discrete convolution kernels with given source distributions. This method introduces a simplified approach that eliminates the need for explicit interaction lists by leveraging near-neighbor computations at each level of an adaptive tree structure. The algorithm is well-suited for parallelization on modern hardware and supports a wide range of kernels.
