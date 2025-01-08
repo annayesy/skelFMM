@@ -4,7 +4,7 @@ authors:
 - family-names: "Yesypenko"
   given-names: "Anna"
   orcid: "https://orcid.org/0009-0008-1409-4075"
-title: "skelFMM"
+title: "SkelFMM: A Simplified Kernel-Independent Fast Multipole Method in Python"
 version: 1.0.0
 doi: 10.5281/zenodo.14613533
 date-released: 2025-01-07
