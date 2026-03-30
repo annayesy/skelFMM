@@ -1,0 +1,23 @@
+name: skelfmmenv-gpu
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cu121
+      - --extra-index-url https://pypi.org/simple
+      - setuptools
+      - wheel
+      - numpy<2
+      - scipy
+      - matplotlib
+      - jupyter
+      - pytest
+      - psutil
+      - threadpoolctl
+      - torch==2.2.2
+      - nvidia-cuda-runtime-cu12
+      - nvidia-cuda-nvrtc-cu12
+      - pykeops
+      - -e .

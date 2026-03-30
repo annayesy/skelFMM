@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skelfmm"
+version = "0.1.0"
+description = "A kernel-independent FMM without interaction lists."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Anna Yesypenko"}
+]
+dependencies = [
+  "numpy<2",
+  "scipy",
+  "psutil",
+  "threadpoolctl",
+  "torch>=2.2",
+  "pykeops",
+  "simpletree @ git+https://github.com/annayesy/simpleoctree.git",
+]
+
+[project.optional-dependencies]
+dev = [
+  "matplotlib",
+  "pytest",
+  "pytest-cov",
+  "jupyter",
+]
+
+[tool.setuptools.packages.find]
+include = ["skelfmm*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = [
+  ".git",
+  ".ipynb_checkpoints",
+  ".pytest_cache",
+  "__pycache__",
+  "simpleoctree",
+  "simpleoctree_dev",
+]

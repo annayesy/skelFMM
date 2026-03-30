@@ -1,0 +1,21 @@
+name: skelfmmenv
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cpu
+      - --extra-index-url https://pypi.org/simple
+      - setuptools
+      - wheel
+      - numpy<2
+      - scipy
+      - matplotlib
+      - jupyter
+      - pytest
+      - psutil
+      - threadpoolctl
+      - torch==2.2.2
+      - pykeops
+      - -e .
