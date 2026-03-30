@@ -17,16 +17,6 @@ Per-Gunnar Martinsson, "A simplified fast multipole method based on strong
 recursive skeletonization," Journal of Computational Physics 524 (2025),
 Article 113707. DOI: [10.1016/j.jcp.2024.113707](https://doi.org/10.1016/j.jcp.2024.113707)
 
-## Interaction structure
-
-<p align="center">
-  <img src="figures/interaction_list_square.png" alt="Interaction structure on a square geometry" width="44%">
-  <img src="figures/interaction_list_curvy_annulus.png" alt="Interaction structure on a curvy annulus geometry" width="55%">
-</p>
-
-These figures illustrate the local interaction structure on square and curvy
-annulus geometries and the localized interaction patterns used by the method.
-
 ## Overview
 
 `skelFMM` is a research implementation of a novel kernel-independent fast
