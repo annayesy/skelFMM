@@ -1,6 +1,8 @@
 # skelFMM
 
-[![DOI](https://zenodo.org/badge/905164703.svg)](https://doi.org/10.5281/zenodo.14613532)
+[![DOI](https://zenodo.org/badge/905164703.svg)](https://doi.org/10.5281/zenodo.14613533)
+[![CI](https://github.com/annayesy/skelFMM/actions/workflows/ci.yml/badge.svg)](https://github.com/annayesy/skelFMM/actions/workflows/ci.yml)
+[![GPU CI](https://github.com/annayesy/skelFMM/actions/workflows/gpu-ci.yml/badge.svg)](https://github.com/annayesy/skelFMM/actions/workflows/gpu-ci.yml)
 [![License](https://img.shields.io/github/license/annayesy/skelFMM)](./LICENSE)
 [![Latest commit](https://img.shields.io/github/last-commit/annayesy/skelFMM)](https://github.com/annayesy/skelFMM/commits/main)
 [![Top language](https://img.shields.io/github/languages/top/annayesy/skelFMM)](https://www.python.org)

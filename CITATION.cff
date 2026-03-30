@@ -5,7 +5,22 @@ authors:
   given-names: "Anna"
   orcid: "https://orcid.org/0009-0008-1409-4075"
 title: "SkelFMM: A Simplified Kernel-Independent Fast Multipole Method in Python"
-version: 1.0.0
+version: 1.0.1
 doi: 10.5281/zenodo.14613533
 date-released: 2025-01-07
 url: "https://github.com/annayesy/skelFMM"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Yesypenko"
+    given-names: "Anna"
+    orcid: "https://orcid.org/0009-0008-1409-4075"
+  - family-names: "Chen"
+    given-names: "Chao"
+  - family-names: "Martinsson"
+    given-names: "Per-Gunnar"
+  title: "A simplified fast multipole method based on strong recursive skeletonization"
+  journal: "Journal of Computational Physics"
+  volume: 524
+  year: 2025
+  doi: 10.1016/j.jcp.2024.113707
