@@ -38,6 +38,8 @@ The current package exposes that method through explicit operator objects, a
 geometry-agnostic skeletonization core, and GPU-friendly batched apply paths
 through PyTorch and PyKeOps when available.
 
+For contribution and development guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
 ## Citation
 
 If you use `skelFMM` in your research, please cite:
